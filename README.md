@@ -9,4 +9,28 @@ You can download VASAD [here](https://raw.githubusercontent.com/palanglois/palan
 
 ## Dataset description
 
-TODO
+Each folder contains the data for a given building. We provide the following files:
+- model.obj: the raw file where each component of the building is represented separately.
+- colored\_triangles.obj: each class of the dataset is colored for visualization purpose.
+- ptView.json: a set of simulated camera locations 
+- samplesWithLabel.obj: a simulated Lidar scan (from the point of views in ptView.json) with a class label for each point.
+- pov.obj: the list of point of views from which each point of samplesWithLabel.obj was taken from.
+
+We also provide a labelled point cloud with features computed from [FKAConv](https://github.com/valeoai/LightConvPoint):
+- lcpSamplesWithLabel.obj: a simulated Lidar scan (from the point of views in ptView.json with a FKAConv feature for each
+- lcpPov.obj: the list of point of views from which each point of samplesWithLabel.obj was taken from.
+- lcpVis.obj: a colored version of lcpSamplesWithLabel.obj using a argmax function on the features for visualization purpose.
+
+The following classes are represented in the dataset: 
+
+- pillar
+- railing
+- roof
+- stair
+- window
+- beam
+- door
+- partition
+- slab
+- bearing wall
+- ceiling
