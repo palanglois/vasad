@@ -5,7 +5,7 @@ P-A. Langlois, A. Boulch, and R. Marlet. VASAD: Volumetric and Semantic Reconstr
 
 ## Dataset download
 
-You can download VASAD [here](https://raw.githubusercontent.com/palanglois/palanglois.github.io/main/images/vasaad_ban.png).
+You can download VASAD [here](https://www.kaggle.com/datasets/palanglois/vasad-volume-and-semantic-for-buildings/settings).
 
 ## Dataset description
 
